@@ -13,7 +13,6 @@ document.getElementById("fenetremodale").style.display = "block";
 
 
 
-
 // document.getElementById("id1").style.display = "none";
 // document.getElementById("id2").style.display = "block";
 

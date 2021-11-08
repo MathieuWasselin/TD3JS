@@ -6,10 +6,9 @@ body{
 
 h1 {
 
-    padding-left: 600px ;
+    padding-left: 500px ;
 
      }
-
 
      .photo{
 
@@ -26,7 +25,6 @@ height: 100px;
 
 }
 
-    
 #buttonAccept{
    margin-left: 1200px;
     
@@ -39,9 +37,14 @@ height: 100px;
 
 #fenetremodale{
     display: none;
+    z-index: 2;
+    background: #fff;
+    padding: 20px;
     position: relative;
-    z-index: 1;
-    margin-bottom: 1em;
-    margin-top: 2em;
+    margin: 10% auto;
+    width: 40%;
+    border-radius: 10px;  
 }
+
+
 
