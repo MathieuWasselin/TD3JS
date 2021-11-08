@@ -52,15 +52,21 @@
 
         <h2>Traitement des données personnelles</h2>    <!-- Titre fenêtre modale -->
 
+        <div class="bloc1">
         <h3>Contenu personnalisé</h3>
-        <button type="button" id="acceptContent">Accepter</button>  <!-- Bloc 1  -->
-        <button type="button" id="refuseContent">Refuser</button>
+        <button type="button" data-inverse="refuseContent" id="acceptContent">Accepter</button>  <!-- Bloc 1  -->
+        <button type="button" data-inverse="acceptContent" id="refuseContent">Refuser</button>
+        </div>
+        <div class="bloc2">
         <h3>Publicité Standard</h3>
-        <button type="button" id="acceptPublicity">Accepter</button> <!-- Bloc 2 -->
-        <button type="button" id="refusePublicity">Refuser</button>
+        <button type="button" data-inverse="refusePublicity" id="acceptPublicity">Accepter</button> <!-- Bloc 2 -->
+        <button type="button" data-inverse="acceptPublicity" id="refusePublicity">Refuser</button>
+        </div>
+        <div class="bloc3">
         <h3>Mesure d'audiance</h3>
-        <button type="button" id="acceptmeasure">Accepter</button> <!-- Bloc 3 -->
-        <button type="button" id="refusemeasure">Refuser</button>
+        <button type="button" data-inverse="refuseMeasure"  id="acceptMeasure">Accepter</button> <!-- Bloc 3 -->
+        <button type="button" data-inverse="acceptMeasure" id="refuseMeasure">Refuser</button>
+        </div>
 
     </div>
 

@@ -37,14 +37,35 @@ height: 100px;
 
 #fenetremodale{
     display: none;
-    z-index: 2;
+    z-index: none;
     background: #fff;
     padding: 20px;
     position: relative;
     margin: 10% auto;
     width: 40%;
-    border-radius: 10px;  
+    border-radius: 10px; 
 }
 
+.bloc1{
 
+    background-color: grey;
+    width: 100%;
+}
+
+.bloc2{
+
+    background-color: grey;
+    width: 100%;
+}
+
+.bloc3{
+
+    background-color: grey;
+    width: 100%;
+}
+
+h2{
+
+    color: brown;
+}
 

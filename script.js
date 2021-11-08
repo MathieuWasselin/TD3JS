@@ -9,20 +9,36 @@ function showModal (){
 document.getElementById("fenetremodale").style.display = "block";
 }
 
+// Action pour changement de couleur du bouton.
+function changeColorAccept(){
+this.style.backgroundColor = "green";
+let buttonReverse = this.getAttribute("data-inverse");
+document.getElementById(buttonReverse).style.backgroundColor = "#D3D3D3";
 
 
+}
+
+document.getElementById("acceptContent").addEventListener("click", changeColorAccept);
+
+document.getElementById("acceptPublicity").addEventListener("click", changeColorAccept);
+
+document.getElementById("acceptMeasure").addEventListener("click", changeColorAccept);
 
 
-// document.getElementById("id1").style.display = "none";
-// document.getElementById("id2").style.display = "block";
+function changeColorDeclined(){
 
+this.style.backgroundColor = "red";
+let buttonReverse = this.getAttribute("data-inverse");
+document.getElementById(buttonReverse).style.backgroundColor = "#D3D3D3";
 
+    
 
+    }
+    
+    document.getElementById("refuseContent").addEventListener("click", changeColorDeclined);
+    
+    document.getElementById("refusePublicity").addEventListener("click", changeColorDeclined);
+    
+    document.getElementById("refuseMeasure").addEventListener("click", changeColorDeclined);
+    
 
-// function fenetremodale(){ 
-
-
-// document.getElementById("id1").innerHTML("click", );
-// document.getElementById("id2").("click",);
-
-// }
