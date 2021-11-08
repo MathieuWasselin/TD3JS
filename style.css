@@ -1,0 +1,47 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2rem;
+    background-color: grey;
+}
+
+h1 {
+
+    padding-left: 600px ;
+
+     }
+
+
+     .photo{
+
+        margin-left: 300px;
+        width: 800px;
+        height: 500px;
+     }
+
+#footer{
+
+background-color: orange;
+width: 100%;
+height: 100px;
+
+}
+
+    
+#buttonAccept{
+   margin-left: 1200px;
+    
+}
+
+#buttonPersonnalis{
+    margin-left: 1300px;
+   
+}
+
+#fenetremodale{
+    display: none;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
